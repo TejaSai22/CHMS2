@@ -1,0 +1,736 @@
+[
+  {
+    "patch_id": "10000",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.044"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.04449462890625,
+    "stressed_coverage": 6.488037109375,
+    "trend": -0.0011023380575638
+  },
+  {
+    "patch_id": "10001",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.025"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0249946061954941,
+    "stressed_coverage": 5.4931640625,
+    "trend": 0.001279249683819
+  },
+  {
+    "patch_id": "10002",
+    "severity": "CRITICAL",
+    "warning_level": 7,
+    "reasons": [
+      "High stressed area: 32.7%",
+      "Low vegetation index: 0.089",
+      "Flagged as anomaly by multiple methods"
+    ],
+    "is_anomaly": true,
+    "ndvi_mean": 0.0890573900799418,
+    "stressed_coverage": 32.672119140625,
+    "trend": 0.0027424804540027
+  },
+  {
+    "patch_id": "10003",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.028"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0278334506722383,
+    "stressed_coverage": 2.64892578125,
+    "trend": 0.0013468657977197
+  },
+  {
+    "patch_id": "10004",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.027"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0270187023074127,
+    "stressed_coverage": 3.057861328125,
+    "trend": 0.0006621420401455
+  },
+  {
+    "patch_id": "10005",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.031"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0305502248364825,
+    "stressed_coverage": 3.271484375,
+    "trend": 0.0011632073073184
+  },
+  {
+    "patch_id": "10006",
+    "severity": "HIGH",
+    "warning_level": 5,
+    "reasons": [
+      "Low vegetation index: 0.056",
+      "Flagged as anomaly by multiple methods"
+    ],
+    "is_anomaly": true,
+    "ndvi_mean": 0.0561338912609011,
+    "stressed_coverage": 11.77978515625,
+    "trend": 0.0010727698332735
+  },
+  {
+    "patch_id": "10007",
+    "severity": "HIGH",
+    "warning_level": 5,
+    "reasons": [
+      "Low vegetation index: -0.127",
+      "Flagged as anomaly by multiple methods"
+    ],
+    "is_anomaly": true,
+    "ndvi_mean": -0.1267331145530523,
+    "stressed_coverage": 0.091552734375,
+    "trend": 0.0032978985324722
+  },
+  {
+    "patch_id": "10008",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.021"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0212970112645348,
+    "stressed_coverage": 4.47998046875,
+    "trend": -0.0001004287318785
+  },
+  {
+    "patch_id": "10009",
+    "severity": "HIGH",
+    "warning_level": 5,
+    "reasons": [
+      "Low vegetation index: 0.043",
+      "Flagged as anomaly by multiple methods"
+    ],
+    "is_anomaly": true,
+    "ndvi_mean": 0.0432214071584302,
+    "stressed_coverage": 7.965087890625,
+    "trend": 0.0018557931893687
+  },
+  {
+    "patch_id": "patch_10000",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.056"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0562715752180232,
+    "stressed_coverage": 9.942626953125,
+    "trend": 0.0012455153630889
+  },
+  {
+    "patch_id": "patch_10001",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.024"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0238519712936046,
+    "stressed_coverage": 5.389404296875,
+    "trend": 0.0011606449736673
+  },
+  {
+    "patch_id": "patch_10002",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.071"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.070594965025436,
+    "stressed_coverage": 26.446533203125,
+    "trend": 0.0021297969835397
+  },
+  {
+    "patch_id": "patch_10003",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.021"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.02081298828125,
+    "stressed_coverage": 1.08642578125,
+    "trend": 0.0011425795997244
+  },
+  {
+    "patch_id": "patch_10004",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.026"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0257568359375,
+    "stressed_coverage": 2.935791015625,
+    "trend": 0.0007442657553656
+  },
+  {
+    "patch_id": "patch_10005",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.030"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0296616665152616,
+    "stressed_coverage": 3.25927734375,
+    "trend": 0.0010808900345203
+  },
+  {
+    "patch_id": "patch_10006",
+    "severity": "HIGH",
+    "warning_level": 5,
+    "reasons": [
+      "Low vegetation index: 0.053",
+      "Flagged as anomaly by multiple methods"
+    ],
+    "is_anomaly": true,
+    "ndvi_mean": 0.0530083234920058,
+    "stressed_coverage": 10.443115234375,
+    "trend": 0.0008486946771887
+  },
+  {
+    "patch_id": "patch_10007",
+    "severity": "HIGH",
+    "warning_level": 5,
+    "reasons": [
+      "Low vegetation index: -0.134",
+      "Flagged as anomaly by multiple methods"
+    ],
+    "is_anomaly": true,
+    "ndvi_mean": -0.1338983580123546,
+    "stressed_coverage": 0.006103515625,
+    "trend": 0.0020697664832896
+  },
+  {
+    "patch_id": "patch_10008",
+    "severity": "HIGH",
+    "warning_level": 5,
+    "reasons": [
+      "Low vegetation index: 0.024",
+      "Flagged as anomaly by multiple methods"
+    ],
+    "is_anomaly": true,
+    "ndvi_mean": 0.0240123660065407,
+    "stressed_coverage": 4.62646484375,
+    "trend": 3.153145115240931e-05
+  },
+  {
+    "patch_id": "patch_10009",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.033"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0326098065043604,
+    "stressed_coverage": 6.195068359375,
+    "trend": 0.0016490736961076
+  },
+  {
+    "patch_id": "patch_10010",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.082"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0823321675145348,
+    "stressed_coverage": 29.156494140625,
+    "trend": 0.0033214849059007
+  },
+  {
+    "patch_id": "patch_10011",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.029"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.028774527616279,
+    "stressed_coverage": 4.718017578125,
+    "trend": 0.0015009284127482
+  },
+  {
+    "patch_id": "patch_10012",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.010"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0104724972747093,
+    "stressed_coverage": 0.653076171875,
+    "trend": 0.0002219828908373
+  },
+  {
+    "patch_id": "patch_10013",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.053"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0530026458030523,
+    "stressed_coverage": 11.85302734375,
+    "trend": 0.003200373164263
+  },
+  {
+    "patch_id": "patch_10014",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.054"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0541552166606104,
+    "stressed_coverage": 14.013671875,
+    "trend": 0.0033919490813056
+  },
+  {
+    "patch_id": "patch_10015",
+    "severity": "HIGH",
+    "warning_level": 5,
+    "reasons": [
+      "Low vegetation index: -0.066",
+      "Flagged as anomaly by multiple methods"
+    ],
+    "is_anomaly": true,
+    "ndvi_mean": -0.0662188862645348,
+    "stressed_coverage": 0.91552734375,
+    "trend": 0.0005235824654088
+  },
+  {
+    "patch_id": "patch_10016",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.033"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0332513853561046,
+    "stressed_coverage": 1.5869140625,
+    "trend": 0.0011694380179232
+  },
+  {
+    "patch_id": "patch_10017",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.045"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0453917037609011,
+    "stressed_coverage": 4.4677734375,
+    "trend": 0.0009539623485163
+  },
+  {
+    "patch_id": "patch_10018",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.043"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0426834461300872,
+    "stressed_coverage": 5.517578125,
+    "trend": 0.0019730061283647
+  },
+  {
+    "patch_id": "patch_10019",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.034"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0339525799418604,
+    "stressed_coverage": 2.734375,
+    "trend": 0.0008393209601989
+  },
+  {
+    "patch_id": "patch_10020",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.064"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.064163562863372,
+    "stressed_coverage": 17.5048828125,
+    "trend": 0.0027752562038706
+  },
+  {
+    "patch_id": "patch_10021",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.032"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.032497672147529,
+    "stressed_coverage": 5.0048828125,
+    "trend": 0.002102376326662
+  },
+  {
+    "patch_id": "patch_10022",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.076"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0764955032703488,
+    "stressed_coverage": 26.239013671875,
+    "trend": 0.0030253602456772
+  },
+  {
+    "patch_id": "patch_10023",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.026"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0255183730014534,
+    "stressed_coverage": 0.0244140625,
+    "trend": 0.0008432289798682
+  },
+  {
+    "patch_id": "patch_10024",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.050"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0502234170603197,
+    "stressed_coverage": 6.0302734375,
+    "trend": 0.0022931227112277
+  },
+  {
+    "patch_id": "patch_10025",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.043"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0430368822674418,
+    "stressed_coverage": 7.940673828125,
+    "trend": 0.0017861585464408
+  },
+  {
+    "patch_id": "patch_10026",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.036"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0356729196947674,
+    "stressed_coverage": 4.473876953125,
+    "trend": 0.0024167691354339
+  },
+  {
+    "patch_id": "patch_10027",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.062"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0620543014171511,
+    "stressed_coverage": 8.514404296875,
+    "trend": 0.0035887694870082
+  },
+  {
+    "patch_id": "patch_10028",
+    "severity": "CRITICAL",
+    "warning_level": 7,
+    "reasons": [
+      "High stressed area: 40.8%",
+      "Low vegetation index: 0.099",
+      "Flagged as anomaly by multiple methods"
+    ],
+    "is_anomaly": true,
+    "ndvi_mean": 0.0985008062318314,
+    "stressed_coverage": 40.80810546875,
+    "trend": 0.0044232699418132
+  },
+  {
+    "patch_id": "patch_10029",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.033"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0328610442405523,
+    "stressed_coverage": 0.1708984375,
+    "trend": 0.0015229294574429
+  },
+  {
+    "patch_id": "patch_10030",
+    "severity": "HIGH",
+    "warning_level": 5,
+    "reasons": [
+      "Low vegetation index: 0.004",
+      "Flagged as anomaly by multiple methods"
+    ],
+    "is_anomaly": true,
+    "ndvi_mean": 0.0036535928415697,
+    "stressed_coverage": 0.2197265625,
+    "trend": -0.0002722341248867
+  },
+  {
+    "patch_id": "patch_10031",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.046"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0461553529251453,
+    "stressed_coverage": 6.671142578125,
+    "trend": 0.001834658545261
+  },
+  {
+    "patch_id": "patch_10032",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.073"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0730377906976744,
+    "stressed_coverage": 23.0712890625,
+    "trend": 0.0028906902565548
+  },
+  {
+    "patch_id": "patch_10033",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.007"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0067110283430232,
+    "stressed_coverage": 1.25732421875,
+    "trend": 5.569849731482167e-05
+  },
+  {
+    "patch_id": "patch_10034",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.062"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0617150595021802,
+    "stressed_coverage": 25.28076171875,
+    "trend": 0.0032324115519291
+  },
+  {
+    "patch_id": "patch_10035",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.029"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0286311659702034,
+    "stressed_coverage": 2.984619140625,
+    "trend": 0.0001282180698571
+  },
+  {
+    "patch_id": "patch_10036",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.034"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0341910428779069,
+    "stressed_coverage": 2.593994140625,
+    "trend": 0.0022213036327771
+  },
+  {
+    "patch_id": "patch_10037",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.047"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0468849359556686,
+    "stressed_coverage": 6.0791015625,
+    "trend": 0.0028226778104707
+  },
+  {
+    "patch_id": "patch_10038",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.024"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0238661655159883,
+    "stressed_coverage": 0.57373046875,
+    "trend": 0.0003402650050258
+  },
+  {
+    "patch_id": "patch_10039",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.045"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0447572220203488,
+    "stressed_coverage": 6.524658203125,
+    "trend": 0.0010712029385948
+  },
+  {
+    "patch_id": "patch_10040",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.037"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0370824059774709,
+    "stressed_coverage": 0.335693359375,
+    "trend": 0.0024420883100366
+  },
+  {
+    "patch_id": "patch_10041",
+    "severity": "CRITICAL",
+    "warning_level": 7,
+    "reasons": [
+      "High stressed area: 52.9%",
+      "Low vegetation index: 0.109",
+      "Flagged as anomaly by multiple methods"
+    ],
+    "is_anomaly": true,
+    "ndvi_mean": 0.1088185864825581,
+    "stressed_coverage": 52.9296875,
+    "trend": 0.0067700910553835
+  },
+  {
+    "patch_id": "patch_10042",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.035"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0348255246184593,
+    "stressed_coverage": 2.34375,
+    "trend": 0.0012899783038545
+  },
+  {
+    "patch_id": "patch_10043",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.027"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0269122456395348,
+    "stressed_coverage": 1.995849609375,
+    "trend": 0.0011628570602725
+  },
+  {
+    "patch_id": "patch_10044",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.030"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0298376748728197,
+    "stressed_coverage": 4.98046875,
+    "trend": 0.001900744632593
+  },
+  {
+    "patch_id": "patch_10045",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.052"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0522688045058139,
+    "stressed_coverage": 3.91845703125,
+    "trend": 0.0016469537797776
+  },
+  {
+    "patch_id": "patch_10046",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.031"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0309803097747093,
+    "stressed_coverage": 0.5126953125,
+    "trend": 0.0004551921211963
+  },
+  {
+    "patch_id": "patch_10047",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.029"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0285133539244186,
+    "stressed_coverage": 0.0,
+    "trend": 0.0024237095571579
+  },
+  {
+    "patch_id": "patch_10048",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.022"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.02227783203125,
+    "stressed_coverage": 3.2958984375,
+    "trend": 0.0010392106360663
+  },
+  {
+    "patch_id": "patch_10049",
+    "severity": "MODERATE",
+    "warning_level": 3,
+    "reasons": [
+      "Low vegetation index: 0.078"
+    ],
+    "is_anomaly": false,
+    "ndvi_mean": 0.0775331009265988,
+    "stressed_coverage": 21.844482421875,
+    "trend": 0.0024711680318682
+  }
+]

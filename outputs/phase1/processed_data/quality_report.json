@@ -1,0 +1,612 @@
+{
+  "missing_timesteps": [],
+  "missing_labels": [
+    "patch_10095"
+  ],
+  "nan_values": [],
+  "extreme_values": [
+    {
+      "patch_id": "patch_10000",
+      "min": -1338.0,
+      "max": 13756.0
+    },
+    {
+      "patch_id": "patch_10001",
+      "min": -1394.0,
+      "max": 17320.0
+    },
+    {
+      "patch_id": "patch_10002",
+      "min": -1682.0,
+      "max": 12459.0
+    },
+    {
+      "patch_id": "patch_10003",
+      "min": -1099.0,
+      "max": 12560.0
+    },
+    {
+      "patch_id": "patch_10004",
+      "min": -1714.0,
+      "max": 16663.0
+    },
+    {
+      "patch_id": "patch_10005",
+      "min": -1608.0,
+      "max": 13238.0
+    },
+    {
+      "patch_id": "patch_10006",
+      "min": -1831.0,
+      "max": 12278.0
+    },
+    {
+      "patch_id": "patch_10007",
+      "min": -1326.0,
+      "max": 15727.0
+    },
+    {
+      "patch_id": "patch_10008",
+      "min": -1709.0,
+      "max": 10654.0
+    },
+    {
+      "patch_id": "patch_10009",
+      "min": -2017.0,
+      "max": 13401.0
+    },
+    {
+      "patch_id": "patch_10010",
+      "min": -3606.0,
+      "max": 13444.0
+    },
+    {
+      "patch_id": "patch_10011",
+      "min": -1459.0,
+      "max": 16030.0
+    },
+    {
+      "patch_id": "patch_10012",
+      "min": -2622.0,
+      "max": 15247.0
+    },
+    {
+      "patch_id": "patch_10013",
+      "min": -1527.0,
+      "max": 13546.0
+    },
+    {
+      "patch_id": "patch_10014",
+      "min": -1997.0,
+      "max": 15583.0
+    },
+    {
+      "patch_id": "patch_10015",
+      "min": -1578.0,
+      "max": 15188.0
+    },
+    {
+      "patch_id": "patch_10016",
+      "min": -1179.0,
+      "max": 13759.0
+    },
+    {
+      "patch_id": "patch_10017",
+      "min": -2057.0,
+      "max": 21151.0
+    },
+    {
+      "patch_id": "patch_10018",
+      "min": -1741.0,
+      "max": 12552.0
+    },
+    {
+      "patch_id": "patch_10019",
+      "min": -2489.0,
+      "max": 14340.0
+    },
+    {
+      "patch_id": "patch_10020",
+      "min": -1444.0,
+      "max": 14170.0
+    },
+    {
+      "patch_id": "patch_10021",
+      "min": -1826.0,
+      "max": 15720.0
+    },
+    {
+      "patch_id": "patch_10022",
+      "min": -2063.0,
+      "max": 14871.0
+    },
+    {
+      "patch_id": "patch_10023",
+      "min": -1382.0,
+      "max": 19247.0
+    },
+    {
+      "patch_id": "patch_10024",
+      "min": -3098.0,
+      "max": 14354.0
+    },
+    {
+      "patch_id": "patch_10025",
+      "min": -1090.0,
+      "max": 17520.0
+    },
+    {
+      "patch_id": "patch_10026",
+      "min": -1549.0,
+      "max": 13684.0
+    },
+    {
+      "patch_id": "patch_10027",
+      "min": -2533.0,
+      "max": 14984.0
+    },
+    {
+      "patch_id": "patch_10028",
+      "min": -2217.0,
+      "max": 17078.0
+    },
+    {
+      "patch_id": "patch_10029",
+      "min": -1061.0,
+      "max": 13801.0
+    },
+    {
+      "patch_id": "patch_10030",
+      "min": -1294.0,
+      "max": 16149.0
+    },
+    {
+      "patch_id": "patch_10031",
+      "min": -760.0,
+      "max": 14286.0
+    },
+    {
+      "patch_id": "patch_10032",
+      "min": -1893.0,
+      "max": 16282.0
+    },
+    {
+      "patch_id": "patch_10033",
+      "min": -1233.0,
+      "max": 12759.0
+    },
+    {
+      "patch_id": "patch_10034",
+      "min": -1504.0,
+      "max": 15463.0
+    },
+    {
+      "patch_id": "patch_10035",
+      "min": -1505.0,
+      "max": 12996.0
+    },
+    {
+      "patch_id": "patch_10036",
+      "min": -3065.0,
+      "max": 17359.0
+    },
+    {
+      "patch_id": "patch_10037",
+      "min": -2575.0,
+      "max": 15448.0
+    },
+    {
+      "patch_id": "patch_10038",
+      "min": -642.0,
+      "max": 13334.0
+    },
+    {
+      "patch_id": "patch_10039",
+      "min": -3671.0,
+      "max": 16235.0
+    },
+    {
+      "patch_id": "patch_10040",
+      "min": -2298.0,
+      "max": 15407.0
+    },
+    {
+      "patch_id": "patch_10041",
+      "min": -3382.0,
+      "max": 18331.0
+    },
+    {
+      "patch_id": "patch_10042",
+      "min": -1668.0,
+      "max": 15741.0
+    },
+    {
+      "patch_id": "patch_10043",
+      "min": -2384.0,
+      "max": 13435.0
+    },
+    {
+      "patch_id": "patch_10044",
+      "min": -676.0,
+      "max": 14099.0
+    },
+    {
+      "patch_id": "patch_10045",
+      "min": -2275.0,
+      "max": 15191.0
+    },
+    {
+      "patch_id": "patch_10046",
+      "min": -1721.0,
+      "max": 12869.0
+    },
+    {
+      "patch_id": "patch_10047",
+      "min": -1261.0,
+      "max": 13559.0
+    },
+    {
+      "patch_id": "patch_10048",
+      "min": -1329.0,
+      "max": 15687.0
+    },
+    {
+      "patch_id": "patch_10049",
+      "min": -4758.0,
+      "max": 15085.0
+    },
+    {
+      "patch_id": "patch_10050",
+      "min": -2675.0,
+      "max": 15513.0
+    },
+    {
+      "patch_id": "patch_10051",
+      "min": -3668.0,
+      "max": 15656.0
+    },
+    {
+      "patch_id": "patch_10052",
+      "min": -925.0,
+      "max": 8919.0
+    },
+    {
+      "patch_id": "patch_10053",
+      "min": -2127.0,
+      "max": 16518.0
+    },
+    {
+      "patch_id": "patch_10054",
+      "min": -1440.0,
+      "max": 13991.0
+    },
+    {
+      "patch_id": "patch_10055",
+      "min": -893.0,
+      "max": 13252.0
+    },
+    {
+      "patch_id": "patch_10056",
+      "min": -1897.0,
+      "max": 12136.0
+    },
+    {
+      "patch_id": "patch_10057",
+      "min": -1882.0,
+      "max": 15755.0
+    },
+    {
+      "patch_id": "patch_10058",
+      "min": -1492.0,
+      "max": 14815.0
+    },
+    {
+      "patch_id": "patch_10059",
+      "min": -1708.0,
+      "max": 21489.0
+    },
+    {
+      "patch_id": "patch_10060",
+      "min": -2028.0,
+      "max": 15103.0
+    },
+    {
+      "patch_id": "patch_10061",
+      "min": -1605.0,
+      "max": 19077.0
+    },
+    {
+      "patch_id": "patch_10062",
+      "min": -1369.0,
+      "max": 13374.0
+    },
+    {
+      "patch_id": "patch_10063",
+      "min": -2347.0,
+      "max": 12266.0
+    },
+    {
+      "patch_id": "patch_10064",
+      "min": -3132.0,
+      "max": 16840.0
+    },
+    {
+      "patch_id": "patch_10065",
+      "min": -1707.0,
+      "max": 15072.0
+    },
+    {
+      "patch_id": "patch_10066",
+      "min": -1885.0,
+      "max": 14198.0
+    },
+    {
+      "patch_id": "patch_10067",
+      "min": -2316.0,
+      "max": 18144.0
+    },
+    {
+      "patch_id": "patch_10068",
+      "min": -1195.0,
+      "max": 13852.0
+    },
+    {
+      "patch_id": "patch_10069",
+      "min": -838.0,
+      "max": 14556.0
+    },
+    {
+      "patch_id": "patch_10070",
+      "min": -3714.0,
+      "max": 18730.0
+    },
+    {
+      "patch_id": "patch_10071",
+      "min": -2298.0,
+      "max": 13484.0
+    },
+    {
+      "patch_id": "patch_10072",
+      "min": -909.0,
+      "max": 11966.0
+    },
+    {
+      "patch_id": "patch_10073",
+      "min": -1079.0,
+      "max": 9553.0
+    },
+    {
+      "patch_id": "patch_10074",
+      "min": -3372.0,
+      "max": 18760.0
+    },
+    {
+      "patch_id": "patch_10075",
+      "min": -1858.0,
+      "max": 13399.0
+    },
+    {
+      "patch_id": "patch_10076",
+      "min": -2362.0,
+      "max": 13873.0
+    },
+    {
+      "patch_id": "patch_10077",
+      "min": -1559.0,
+      "max": 13356.0
+    },
+    {
+      "patch_id": "patch_10078",
+      "min": -1762.0,
+      "max": 17284.0
+    },
+    {
+      "patch_id": "patch_10079",
+      "min": -2543.0,
+      "max": 18151.0
+    },
+    {
+      "patch_id": "patch_10080",
+      "min": -1903.0,
+      "max": 14014.0
+    },
+    {
+      "patch_id": "patch_10081",
+      "min": -1576.0,
+      "max": 14579.0
+    },
+    {
+      "patch_id": "patch_10082",
+      "min": -1292.0,
+      "max": 13700.0
+    },
+    {
+      "patch_id": "patch_10083",
+      "min": -1985.0,
+      "max": 12086.0
+    },
+    {
+      "patch_id": "patch_10084",
+      "min": -1541.0,
+      "max": 14286.0
+    },
+    {
+      "patch_id": "patch_10085",
+      "min": -1921.0,
+      "max": 12499.0
+    },
+    {
+      "patch_id": "patch_10086",
+      "min": -2145.0,
+      "max": 15726.0
+    },
+    {
+      "patch_id": "patch_10087",
+      "min": -2621.0,
+      "max": 15052.0
+    },
+    {
+      "patch_id": "patch_10088",
+      "min": -2014.0,
+      "max": 14529.0
+    },
+    {
+      "patch_id": "patch_10089",
+      "min": -999.0,
+      "max": 12849.0
+    },
+    {
+      "patch_id": "patch_10090",
+      "min": -3587.0,
+      "max": 17153.0
+    },
+    {
+      "patch_id": "patch_10091",
+      "min": -2302.0,
+      "max": 12601.0
+    },
+    {
+      "patch_id": "patch_10092",
+      "min": -2329.0,
+      "max": 17806.0
+    },
+    {
+      "patch_id": "patch_10093",
+      "min": -1431.0,
+      "max": 12932.0
+    },
+    {
+      "patch_id": "patch_10094",
+      "min": -1528.0,
+      "max": 16731.0
+    },
+    {
+      "patch_id": "patch_10095",
+      "min": -1950.0,
+      "max": 14849.0
+    },
+    {
+      "patch_id": "patch_10096",
+      "min": -2386.0,
+      "max": 13166.0
+    },
+    {
+      "patch_id": "patch_10097",
+      "min": -2584.0,
+      "max": 18493.0
+    },
+    {
+      "patch_id": "patch_10098",
+      "min": -1727.0,
+      "max": 15054.0
+    },
+    {
+      "patch_id": "patch_10099",
+      "min": -2156.0,
+      "max": 12582.0
+    }
+  ],
+  "cloud_contamination": [
+    "patch_10000",
+    "patch_10001",
+    "patch_10002",
+    "patch_10003",
+    "patch_10004",
+    "patch_10005",
+    "patch_10006",
+    "patch_10007",
+    "patch_10008",
+    "patch_10009",
+    "patch_10010",
+    "patch_10011",
+    "patch_10012",
+    "patch_10013",
+    "patch_10014",
+    "patch_10015",
+    "patch_10016",
+    "patch_10017",
+    "patch_10018",
+    "patch_10019",
+    "patch_10020",
+    "patch_10021",
+    "patch_10022",
+    "patch_10023",
+    "patch_10024",
+    "patch_10025",
+    "patch_10026",
+    "patch_10027",
+    "patch_10028",
+    "patch_10029",
+    "patch_10030",
+    "patch_10031",
+    "patch_10032",
+    "patch_10033",
+    "patch_10034",
+    "patch_10035",
+    "patch_10036",
+    "patch_10037",
+    "patch_10038",
+    "patch_10039",
+    "patch_10040",
+    "patch_10041",
+    "patch_10042",
+    "patch_10043",
+    "patch_10044",
+    "patch_10045",
+    "patch_10046",
+    "patch_10047",
+    "patch_10048",
+    "patch_10049",
+    "patch_10050",
+    "patch_10051",
+    "patch_10052",
+    "patch_10053",
+    "patch_10054",
+    "patch_10055",
+    "patch_10056",
+    "patch_10057",
+    "patch_10058",
+    "patch_10059",
+    "patch_10060",
+    "patch_10061",
+    "patch_10062",
+    "patch_10063",
+    "patch_10064",
+    "patch_10065",
+    "patch_10066",
+    "patch_10067",
+    "patch_10068",
+    "patch_10069",
+    "patch_10070",
+    "patch_10071",
+    "patch_10072",
+    "patch_10073",
+    "patch_10074",
+    "patch_10075",
+    "patch_10076",
+    "patch_10077",
+    "patch_10078",
+    "patch_10079",
+    "patch_10080",
+    "patch_10081",
+    "patch_10082",
+    "patch_10083",
+    "patch_10084",
+    "patch_10085",
+    "patch_10086",
+    "patch_10087",
+    "patch_10088",
+    "patch_10089",
+    "patch_10090",
+    "patch_10091",
+    "patch_10092",
+    "patch_10093",
+    "patch_10094",
+    "patch_10095",
+    "patch_10096",
+    "patch_10097",
+    "patch_10098",
+    "patch_10099"
+  ],
+  "temporal_gaps": []
+}

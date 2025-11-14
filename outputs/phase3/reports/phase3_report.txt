@@ -1,0 +1,109 @@
+================================================================================
+PHASE 3: PATTERN DISCOVERY & ANOMALY DETECTION
+================================================================================
+
+Report Generated: 2025-11-12 23:16:57
+
+================================================================================
+DTW-BASED CLUSTERING RESULTS
+================================================================================
+
+Clustering Algorithm: K-Means with DTW (Dynamic Time Warping) metric
+Number of Clusters: 5
+Total Parcels Clustered: 3,040
+Feature Used: Mean_NDVI
+Timesteps: 43
+
+Cluster Distribution:
+  Cluster 0:   664 parcels (21.84%)
+  Cluster 1:   459 parcels (15.10%)
+  Cluster 2:   615 parcels (20.23%)
+  Cluster 3:   449 parcels (14.77%)
+  Cluster 4:   853 parcels (28.06%)
+
+Cluster Characteristics:
+
+  Cluster 0:
+    Mean NDVI:  0.1237 ± 0.1151
+    Peak NDVI:  0.9206 ± 0.1188
+    NDVI Slope: -0.0030 ± 0.0073
+
+  Cluster 1:
+    Mean NDVI:  0.0861 ± 0.1820
+    Peak NDVI:  0.8713 ± 0.1598
+    NDVI Slope: -0.0057 ± 0.0081
+
+  Cluster 2:
+    Mean NDVI:  0.0509 ± 0.1696
+    Peak NDVI:  0.8538 ± 0.1670
+    NDVI Slope: -0.0011 ± 0.0084
+
+  Cluster 3:
+    Mean NDVI:  -0.0805 ± 0.1289
+    Peak NDVI:  0.8615 ± 0.1404
+    NDVI Slope: 0.0011 ± 0.0065
+
+  Cluster 4:
+    Mean NDVI:  -0.0350 ± 0.1236
+    Peak NDVI:  0.8956 ± 0.1208
+    NDVI Slope: 0.0055 ± 0.0073
+
+================================================================================
+ANOMALY DETECTION RESULTS
+================================================================================
+
+Anomaly Detection Algorithm: Isolation Forest
+Total Parcels Analyzed: 3,040
+Anomalies Detected: 152 (5.00%)
+Normal Parcels: 2,888
+
+Anomaly Score Statistics:
+  Mean Score: -0.4374
+  Std Score:  0.0356
+  Min Score:  -0.6372 (most anomalous)
+  Max Score:  -0.3724 (most normal)
+
+================================================================================
+OUTPUT FILES
+================================================================================
+
+✅ Cluster Analysis:
+  • cluster_assignments.csv (3,040 parcels)
+
+✅ Anomaly Detection:
+  • anomaly_scores.csv (3,040 parcels)
+  • top_anomalies.csv (top 20 anomalies)
+
+✅ Visualizations:
+  • cluster_centroids.png
+  • cluster_distribution.png
+  • cluster_characteristics.png
+  • anomaly_analysis.png
+  • top_anomalies_timeseries.png
+
+================================================================================
+KEY INSIGHTS
+================================================================================
+
+✨ Growth Patterns Identified:
+  DTW clustering successfully grouped parcels with similar growth
+  trajectories, even when temporally misaligned (different planting dates).
+
+✨ Anomalous Patterns:
+  152 parcels show unusual growth patterns.
+  These may indicate crop stress, disease, or environmental factors.
+
+================================================================================
+NEXT STEPS: PHASE 4
+================================================================================
+
+✨ Ready for Phase 4: Predictive Modeling & Evaluation
+
+  Use cluster_assignments.csv and anomaly_scores.csv for:
+  • Training Random Forest and XGBoost models
+  • Building LSTM networks for temporal prediction
+  • Predicting yield and crop stress classification
+
+================================================================================
+PHASE 3 COMPLETE ✅
+================================================================================

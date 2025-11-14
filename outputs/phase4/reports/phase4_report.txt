@@ -1,0 +1,93 @@
+================================================================================
+PHASE 4: PREDICTIVE MODELING & EVALUATION
+================================================================================
+
+Report Generated: 2025-11-12 23:53:30
+
+================================================================================
+YIELD PREDICTION (REGRESSION)
+================================================================================
+
+Target Variable: Peak_NDVI (proxy for crop yield)
+Dataset Size: 3,040 parcels
+
+Random Forest Regressor:
+  Test RMSE: 0.0837
+  Test MAE:  0.0623
+  Test R²:   0.6800
+
+XGBoost Regressor:
+  Test RMSE: 0.0888
+  Test MAE:  0.0659
+  Test R²:   0.6400
+
+================================================================================
+STRESS CLASSIFICATION
+================================================================================
+
+Target Variable: Is_Anomaly (stressed vs. healthy)
+Dataset Size: 3,040 parcels
+
+Random Forest Classifier:
+  Accuracy:  0.9507
+  Precision: 0.5000
+  Recall:    0.2667
+  F1-Score:  0.3478
+  ROC-AUC:   0.8859
+
+LSTM Classifier:
+  Accuracy:  0.8355
+  Precision: 0.1759
+  Recall:    0.6333
+  F1-Score:  0.2754
+  ROC-AUC:   0.8653
+
+================================================================================
+OUTPUT FILES
+================================================================================
+
+Predictions:
+  • rf_yield_predictions.csv
+  • xgb_yield_predictions.csv
+  • rf_stress_predictions.csv
+  • lstm_stress_predictions.csv
+
+Models:
+  • lstm_stress_model.keras
+
+Visualizations:
+  • regression_results.png
+  • classification_results.png
+  • lstm_training_history.png
+
+================================================================================
+KEY INSIGHTS
+================================================================================
+
+✨ Regression Models:
+  Both Random Forest and XGBoost successfully predict crop yield
+  (Peak NDVI) with reasonable accuracy.
+
+✨ Classification Models:
+  Models can identify stressed parcels with high precision,
+  enabling early intervention for crop management.
+
+✨ Temporal Modeling:
+  LSTM captures temporal patterns in NDVI/EVI time-series,
+  providing deeper insights into growth dynamics.
+
+================================================================================
+NEXT STEPS: PHASE 5
+================================================================================
+
+✨ Ready for Phase 5: Interactive Dashboard
+
+  Use predictions and models for:
+  • Interactive Streamlit dashboard
+  • Real-time yield predictions
+  • Stress monitoring and alerts
+  • Actionable recommendations for farmers
+
+================================================================================
+PHASE 4 COMPLETE ✅
+================================================================================

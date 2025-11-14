@@ -1,0 +1,22 @@
+{
+  "isolation_forest": {
+    "n_anomalies": 6,
+    "percentage": 10.0
+  },
+  "lof": {
+    "n_anomalies": 6,
+    "percentage": 10.0
+  },
+  "statistical": {
+    "n_anomalies": 15,
+    "percentage": 25.0
+  },
+  "temporal": {
+    "n_anomalies": 7,
+    "percentage": 11.666666666666666
+  },
+  "consensus": {
+    "n_anomalies": 11,
+    "percentage": 18.333333333333332
+  }
+}

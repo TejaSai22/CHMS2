@@ -1,0 +1,55 @@
+
+================================================================================
+PHASE 1: DATA ACQUISITION & PREPROCESSING - REPORT
+================================================================================
+
+Generated: 2025-11-12 14:35:53
+
+DATASET SUMMARY:
+----------------
+Total Patches Loaded: 100
+Data Source: REAL PASTIS Dataset
+Data Directory: data\PASTIS
+
+VEGETATION INDEX STATISTICS:
+----------------------------
+NDVI:
+  Mean: 0.0438
+  Std:  0.0974
+  Range: [-0.1442, 0.2344]
+
+EVI:
+  Mean: 0.4557
+  Std:  0.1669
+  Range: [0.1183, 2.0000]
+
+HEALTH STATUS DISTRIBUTION:
+---------------------------
+Stressed: 100 patches (100.0%)
+
+DELIVERABLES:
+-------------
+✅ Cleaned and normalized Sentinel-2 image time-series
+✅ NDVI computed for all patches and timesteps
+✅ EVI computed for all patches and timesteps
+✅ Parcel boundaries extracted
+✅ Metadata summary exported
+✅ Sample patches saved for Phase 2
+
+OUTPUT LOCATIONS:
+-----------------
+Metadata: outputs\phase1\processed_data\metadata_summary.csv
+Statistics: outputs\phase1\processed_data\dataset_statistics.json
+Samples: outputs\phase1\processed_data\sample_patches
+Visualizations: outputs\phase1\visualizations
+
+NEXT STEPS:
+-----------
+Phase 1 is complete. The prepared dataset is ready for Phase 2:
+- Segmentation & Feature Extraction
+- Temporal pattern analysis
+- GLCM texture feature computation
+
+Run Phase 2 with: python src/phase2_segmentation.py
+
+================================================================================

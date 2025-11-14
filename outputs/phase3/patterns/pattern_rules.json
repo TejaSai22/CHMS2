@@ -1,0 +1,13 @@
+[
+  {
+    "cluster_id": 2,
+    "condition": "ndvi_mean_temporal < -0.109",
+    "outcome": "likely Stressed",
+    "support": 3.3333333333333335,
+    "confidence": 100.0,
+    "z_score": 3.5806601648760363,
+    "description": "IF ndvi_mean_temporal < -0.109 THEN likely Stressed",
+    "feature": "ndvi_mean_temporal",
+    "cluster_size": 3
+  }
+]

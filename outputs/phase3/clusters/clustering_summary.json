@@ -1,0 +1,75 @@
+{
+  "kmeans": {
+    "n_clusters": 3,
+    "silhouette_score": 0.3105117173995723,
+    "cluster_sizes": {
+      "cluster_0": {
+        "size": 41,
+        "percentage": 68.33333333333333
+      },
+      "cluster_1": {
+        "size": 16,
+        "percentage": 26.666666666666668
+      },
+      "cluster_2": {
+        "size": 3,
+        "percentage": 5.0
+      }
+    }
+  },
+  "dbscan": {
+    "n_clusters": 1,
+    "silhouette_score": -1,
+    "cluster_sizes": {
+      "cluster_-1": {
+        "size": 3,
+        "percentage": 5.0,
+        "label": "Noise/Outliers"
+      },
+      "cluster_0": {
+        "size": 57,
+        "percentage": 95.0
+      }
+    }
+  },
+  "hierarchical": {
+    "n_clusters": 3,
+    "silhouette_score": 0.31790049299426115,
+    "cluster_sizes": {
+      "cluster_0": {
+        "size": 14,
+        "percentage": 23.333333333333332
+      },
+      "cluster_1": {
+        "size": 3,
+        "percentage": 5.0
+      },
+      "cluster_2": {
+        "size": 43,
+        "percentage": 71.66666666666667
+      }
+    }
+  },
+  "temporal": {
+    "n_clusters": 4,
+    "silhouette_score": 0.29694186580785853,
+    "cluster_sizes": {
+      "cluster_0": {
+        "size": 20,
+        "percentage": 33.33333333333333
+      },
+      "cluster_1": {
+        "size": 33,
+        "percentage": 55.00000000000001
+      },
+      "cluster_2": {
+        "size": 5,
+        "percentage": 8.333333333333332
+      },
+      "cluster_3": {
+        "size": 2,
+        "percentage": 3.3333333333333335
+      }
+    }
+  }
+}

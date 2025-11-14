@@ -1,0 +1,168 @@
+{
+  "10000": {
+    "phenological_stages": {
+      "dormant": 0,
+      "greenup": 0,
+      "peak": 0,
+      "senescence": 21
+    },
+    "temporal_anomalies": [
+      0,
+      4
+    ],
+    "periodicity_score": -0.24055713498182382,
+    "max_ndvi": 0.36480712890625,
+    "min_ndvi": 0.0,
+    "ndvi_range": 0.36480712890625
+  },
+  "10001": {
+    "phenological_stages": {
+      "dormant": 0,
+      "greenup": 13,
+      "peak": 27,
+      "senescence": 35
+    },
+    "temporal_anomalies": [
+      24,
+      27,
+      37
+    ],
+    "periodicity_score": -0.1386583074862059,
+    "max_ndvi": 0.1915283203125,
+    "min_ndvi": 0.0,
+    "ndvi_range": 0.1915283203125
+  },
+  "10002": {
+    "phenological_stages": {
+      "dormant": 0,
+      "greenup": 6,
+      "peak": 12,
+      "senescence": 27
+    },
+    "temporal_anomalies": [
+      12,
+      40,
+      42
+    ],
+    "periodicity_score": -0.18726507274789309,
+    "max_ndvi": 0.5181884765625,
+    "min_ndvi": 0.0,
+    "ndvi_range": 0.5181884765625
+  },
+  "10003": {
+    "phenological_stages": {
+      "dormant": 0,
+      "greenup": 12,
+      "peak": 24,
+      "senescence": 33
+    },
+    "temporal_anomalies": [
+      24,
+      32
+    ],
+    "periodicity_score": 0.02276114399253894,
+    "max_ndvi": 0.47808837890625,
+    "min_ndvi": 0.0,
+    "ndvi_range": 0.47808837890625
+  },
+  "10004": {
+    "phenological_stages": {
+      "dormant": 0,
+      "greenup": 21,
+      "peak": 42,
+      "senescence": 42
+    },
+    "temporal_anomalies": [
+      4,
+      21,
+      42
+    ],
+    "periodicity_score": -0.13123806920400707,
+    "max_ndvi": 0.3001708984375,
+    "min_ndvi": 0.0,
+    "ndvi_range": 0.3001708984375
+  },
+  "10005": {
+    "phenological_stages": {
+      "dormant": 0,
+      "greenup": 5,
+      "peak": 11,
+      "senescence": 27
+    },
+    "temporal_anomalies": [
+      11,
+      35,
+      42
+    ],
+    "periodicity_score": -0.12177678917398724,
+    "max_ndvi": 0.32598876953125,
+    "min_ndvi": 0.0,
+    "ndvi_range": 0.32598876953125
+  },
+  "10006": {
+    "phenological_stages": {
+      "dormant": 0,
+      "greenup": 0,
+      "peak": 0,
+      "senescence": 21
+    },
+    "temporal_anomalies": [
+      0,
+      34,
+      37,
+      42
+    ],
+    "periodicity_score": -0.1567105338022818,
+    "max_ndvi": 0.494384765625,
+    "min_ndvi": 0.0,
+    "ndvi_range": 0.494384765625
+  },
+  "10007": {
+    "phenological_stages": {
+      "dormant": 0,
+      "greenup": 16,
+      "peak": 32,
+      "senescence": 37
+    },
+    "temporal_anomalies": [
+      3,
+      39
+    ],
+    "periodicity_score": 0.29561101935968764,
+    "max_ndvi": 0.2086181640625,
+    "min_ndvi": -0.59814453125,
+    "ndvi_range": 0.8067626953125
+  },
+  "10008": {
+    "phenological_stages": {
+      "dormant": 0,
+      "greenup": 0,
+      "peak": 0,
+      "senescence": 21
+    },
+    "temporal_anomalies": [
+      0,
+      17,
+      42
+    ],
+    "periodicity_score": -0.06680715948547963,
+    "max_ndvi": 0.29498291015625,
+    "min_ndvi": -0.05731201171875,
+    "ndvi_range": 0.352294921875
+  },
+  "10009": {
+    "phenological_stages": {
+      "dormant": 0,
+      "greenup": 12,
+      "peak": 24,
+      "senescence": 33
+    },
+    "temporal_anomalies": [
+      24
+    ],
+    "periodicity_score": -0.048191339582421305,
+    "max_ndvi": 0.73797607421875,
+    "min_ndvi": 0.0,
+    "ndvi_range": 0.73797607421875
+  }
+}

@@ -1,0 +1,78 @@
+================================================================================
+PHASE 2: PARCEL SEGMENTATION & TEMPORAL FEATURE EXTRACTION
+================================================================================
+
+Report Generated: 2025-11-12 22:58:06
+
+================================================================================
+DATASET SUMMARY
+================================================================================
+
+Temporal Features:
+  • Total observations: 130,720
+  • Unique parcels: 3,040
+  • Unique patches: 50
+  • Timesteps: 43
+  • Features per observation: 19
+
+Spatial Features (GLCM):
+  • Total parcels: 3,040
+  • GLCM features: 6 (contrast, dissimilarity, homogeneity, energy, correlation, ASM)
+
+Aggregated Features:
+  • Total parcels: 3,040
+  • Features per parcel: 22
+
+================================================================================
+FEATURE STATISTICS
+================================================================================
+
+NDVI Aggregated Statistics:
+  Mean NDVI:  0.0286 ± 0.1609
+  Peak NDVI:  0.8839 ± 0.1420
+  NDVI Range: 1.7728 ± 0.1971
+  NDVI Slope: -0.0000 ± 0.0085
+
+EVI Aggregated Statistics:
+  Mean EVI:  0.4577 ± 0.3017
+  Peak EVI:  1.9062 ± 0.1450
+  EVI Range: 2.7349 ± 0.2761
+  EVI Slope: 0.0046 ± 0.0174
+
+GLCM Texture Features:
+  Contrast:       2467.9058 ± 1872.2420
+  Dissimilarity:  25.2034 ± 11.7576
+  Homogeneity:    0.3767 ± 0.1806
+  Energy:         0.3473 ± 0.1753
+  Correlation:    0.6130 ± 0.2371
+
+================================================================================
+OUTPUT FILES
+================================================================================
+
+✅ Features:
+  • temporal_features.csv (130,720 rows)
+  • spatial_features.csv (3,040 rows)
+  • aggregated_features.csv (3,040 rows)
+
+✅ Visualizations:
+  • sample_timeseries.png
+  • feature_distributions.png
+  • correlation_heatmap.png
+
+================================================================================
+NEXT STEPS: PHASE 3
+================================================================================
+
+✨ Ready for Phase 3: Pattern Discovery & Anomaly Detection
+
+  Use temporal_features.csv for:
+  • DTW-based K-Means clustering (group similar growth patterns)
+  • Anomaly detection with Isolation Forest
+
+  Use aggregated_features.csv for:
+  • Phase 4 predictive modeling (Random Forest, XGBoost, LSTM)
+
+================================================================================
+PHASE 2 COMPLETE ✅
+================================================================================

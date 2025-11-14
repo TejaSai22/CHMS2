@@ -1,0 +1,70 @@
+
+📥 PASTIS DATASET DOWNLOAD GUIDE
+
+The PASTIS (Panoptic Agricultural Satellite Time Series) dataset contains
+Sentinel-2 multispectral satellite imagery over agricultural regions in France.
+
+Dataset Specifications:
+- Total size: ~29 GB (compressed)
+- Number of patches: 2,433
+- Patch size: 128x128 pixels
+- Temporal observations: Variable (typically 40-70 per patch)
+- Spectral bands: 10 (Sentinel-2 bands)
+- Labels: 18 crop types + background
+
+Download Options:
+
+OPTION 1: Official Zenodo Repository (Recommended)
+--------------------------------------------------
+1. Visit: https://zenodo.org/record/5012942
+2. Download files:
+   - PASTIS.zip (main dataset)
+   - metadata.csv (crop labels and metadata)
+   - fold_ids.csv (train/val/test splits)
+
+3. Extract to your data directory:
+   unzip PASTIS.zip -d ./data/pastis/
+
+OPTION 2: GitHub Repository
+--------------------------------------------------
+1. Visit: https://github.com/VSainteuf/pastis-benchmark
+2. Follow README instructions for dataset access
+3. Clone repository for additional tools and documentation
+
+OPTION 3: For This Demo (Synthetic Data)
+--------------------------------------------------
+Since the full dataset is 29GB, for development and testing,
+we'll generate synthetic data that matches PASTIS structure.
+
+Expected Directory Structure After Download:
+--------------------------------------------------
+./data/pastis/
+├── DATA_S2/                    # Sentinel-2 time series (optical)
+│   ├── S2_20001.npy           # Patch 1 images
+│   ├── S2_20002.npy           # Patch 2 images
+│   └── ...
+├── ANNOTATIONS/                # Semantic segmentation labels
+│   ├── TARGET_20001.npy       # Patch 1 labels
+│   ├── TARGET_20002.npy       # Patch 2 labels
+│   └── ...
+├── metadata.csv               # Patch metadata
+└── fold_ids.csv              # Train/val/test splits
+
+Sentinel-2 Band Information:
+--------------------------------------------------
+Band 1  - Coastal aerosol (443 nm) - NOT USED
+Band 2  - Blue (490 nm) - 10m resolution
+Band 3  - Green (560 nm) - 10m resolution
+Band 4  - Red (665 nm) - 10m resolution
+Band 5  - Red Edge 1 (705 nm) - 20m resolution
+Band 6  - Red Edge 2 (740 nm) - 20m resolution
+Band 7  - Red Edge 3 (783 nm) - 20m resolution
+Band 8  - NIR (842 nm) - 10m resolution
+Band 8A - Narrow NIR (865 nm) - 20m resolution
+Band 9  - Water vapor (945 nm) - NOT USED
+Band 10 - SWIR - Cirrus (1375 nm) - NOT USED
+Band 11 - SWIR 1 (1610 nm) - 20m resolution
+Band 12 - SWIR 2 (2190 nm) - 20m resolution
+
+PASTIS uses 10 bands: B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12
+        
